@@ -1,0 +1,28 @@
+#app-footer {
+  height: 1rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  background: #fff;
+  box-shadow: 0px -1px 5px #ccc;
+}
+#app-footer a {
+  width: 25%;
+  font-size: 0.26rem;
+  text-align: center;
+  height: 1rem;
+  color: #000;
+  float: left;
+  padding-top: 0.2rem;
+}
+#app-footer a i {
+  display: block;
+  font-size: 0.4rem;
+  color: #333;
+}
+#app-footer .router-link-active {
+  color: #0095ff;
+}
+#app-footer .router-link-active i {
+  color: #0095ff;
+}

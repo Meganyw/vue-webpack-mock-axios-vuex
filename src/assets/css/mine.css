@@ -1,0 +1,128 @@
+#mine {
+  width: 100%;
+  overflow: hidden;
+}
+.headerImg {
+  background: #0095ff;
+  padding: 0.5rem 0.3rem;
+  overflow: hidden;
+  width: 100%;
+}
+.headerImg img {
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+}
+.headerImg > span {
+  color: #fff;
+  font-size: 0.32rem;
+  margin: 0.4rem 0 0 0.2rem;
+  font-weight: bold;
+}
+.headerImg > span.renzheng {
+  background: #007eba;
+  color: #fff;
+  position: absolute;
+  border-radius: 0.4rem 0 0 0.4rem;
+  font-weight: normal;
+  right: 0;
+  padding: 0.1rem 0.2rem;
+  font-size: 0.24rem;
+}
+.operationList {
+  background: #fefefe;
+  overflow: hidden;
+}
+.operationList > li {
+  float: left;
+  color: #4a4a4a;
+  text-align: center;
+  padding: 0.2rem 0;
+}
+.five {
+  width: 20%;
+}
+.four {
+  width: 25%;
+}
+.operationList li .icon {
+  display: block;
+  font-size: 0.40rem;
+}
+.operationList li .name {
+  display: block;
+  font-size: 0.26rem;
+  margin-top: 0.1rem;
+}
+.newList {
+  display: block;
+  overflow: hidden;
+  line-height: 1rem;
+  padding: 0 0.2rem;
+  font-size: 0.28rem;
+  background: #fefefe;
+  border-bottom: 1px solid #f3f3f3;
+}
+.newList .list {
+  color: #525252;
+}
+.newList .orderid {
+  color: #a6a6a6;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.mine > li:nth-child(4) {
+  margin: 0.2rem 0;
+}
+.newList img {
+  width: 0.56rem;
+  height: 0.56rem;
+  float: left;
+  margin: 0.22rem 0.2rem 0 0;
+}
+.ul-list {
+  background: #eee;
+}
+.icon-list .grid-content {
+  text-align: center;
+  height: 2rem;
+  background: #fff;
+}
+.icon-list .el-col-8 {
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.icon-list .el-col-8:last-child {
+  border-right: 0;
+}
+.icon-list .fa-star-o {
+  color: #0095ff;
+  font-size: 0.6rem;
+}
+.icon-list .fa-user-plus {
+  color: #ea36ea;
+  font-size: 0.6rem;
+}
+.icon-list .fa-money {
+  color: red;
+  font-size: 0.6rem;
+}
+.icon-list .fa-map-marker {
+  color: #42d847;
+  font-size: 0.6rem;
+}
+.icon-list .fa-barcode {
+  color: black;
+  font-size: 0.6rem;
+}
+.icon-list .fa-list-alt {
+  color: #f85104;
+  font-size: 0.6rem;
+}
+.icon-list .icon-name {
+  font-size: 0.3rem;
+}

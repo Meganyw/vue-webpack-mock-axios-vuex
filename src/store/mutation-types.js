@@ -1,0 +1,2 @@
+export const SOME_MUTATION = 'SOME_INCREMENT'
+export const SOME_DECREMENT = 'SOME_DECREMENT'
